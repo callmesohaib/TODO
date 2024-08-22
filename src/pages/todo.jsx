@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-
+import './todo.css';
 const getLocalData = () => {
   const tasksData = localStorage.getItem("tasks");
   if (tasksData) {
@@ -65,8 +65,8 @@ export const Todo = () => {
   }, [tasks]);
 
   return (
-    <div className="container">
-      <div className="small-container">
+    <div className="container2">
+      <div className="small-container2">
         <h1>Todo List</h1>
         <form onSubmit={addItems}>
           <input

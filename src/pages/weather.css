@@ -1,0 +1,113 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.12/css/weather-icons.min.css);
+
+.weather {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #121212;
+}
+.main-container1 {
+  width: 70%;
+  height: 100vh;
+  background-color: wheat;
+}
+.container1 {
+  height: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+.mid-container1 {
+  display: flex;
+  align-items: center;
+}
+.last-container1 {
+  display: flex;
+  font-size: 2rem;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: cyan;
+  color: #000;
+  height: 15vh;
+}
+
+.search {
+  width: 50%;
+  margin: 1.4rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-search {
+  margin-left: 1rem;
+  color: black;
+  font-size: 2rem;
+  cursor: pointer;
+}
+input {
+  border: 2px solid black;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1rem;
+}
+.top {
+  font-size: 10rem;
+}
+.info {
+  display: flex;
+  font-size: 2rem;
+  font-weight: 600;
+  width: 70%;
+  background: #000;
+  height: 30vh;
+  justify-content: center;
+}
+.deg {
+  margin: 3.5rem 2rem;
+  font-size: 4rem;
+  display: flex;
+}
+.wi-celsius {
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: 5rem;
+}
+.mood {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3.5rem;
+}
+.area {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.Date-Time {
+  background-color: #fff;
+  color: black;
+  height: 30vh;
+  width: 30%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+  align-items: center;
+  font-weight: 600;
+}
+
+.min-info {
+  margin: 0;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+.box {
+  display: flex;
+  align-items: center;
+}
+
+.box p {
+  margin: 0;
+}
